@@ -53,12 +53,12 @@
 ---
 
 ## 📹 Demonstration Video
-▶️ https://drive.google.com/file/d/1BBydxva_KqP4_hgc1bU6dia1E439ctNj/view?usp=sharing (#)
+▶️ https://drive.google.com/file/d/1BBydxva_KqP4_hgc1bU6dia1E439ctNj/view?usp=sharing 
 
 ---
 
 ## 🌐 Deployment
-🔗 https://t2t-test.netlify.app/(#)   
+🔗 https://t2t-test.netlify.app/ 
 
 ---
 
@@ -68,14 +68,6 @@
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)  
 - [AIGNITE README Template](https://github.com/Saijatin1/AIGNITE-README-TEMPLATE-FINAL)
-
----
-
-## 🖼️ Assets / Screenshots
-<p align="center">
-  <img src="project\src\components\Iimage2.png alt="Project Logo" width="220" /><br/>
-  <img src="project\src\components\image.png" alt="Application Screenshot" width="600" />
-</p>
 
 ---
 

@@ -40,9 +40,9 @@
 
 | Name | Role | Email |
 |---|---:|---|
-| Vishnu Konda      | Team Lead   | vishnukonda40@gmail.com     |
-| Anandhi Nallaganti| Team Member | anandhinallaganti@gmail.com |
-| Abhishek Madke    | Team Member | abhishekmadke073@gmail.com  |
+| Vishnu Konda      | Team Lead   | 2411cs030183@mallareddyuniversity.ac.in    |
+| Anandhi Nallaganti| Team Member | 2411cs030313@mallareddyuniversity.ac.in |
+| Abhishek Madke    | Team Member | 2411cs030004@mallareddyuniversity.ac.in|
 | Varsha Pyata      | Team Member | 2411cs030538@mallareddyuniversity.ac.in |
 
 ---

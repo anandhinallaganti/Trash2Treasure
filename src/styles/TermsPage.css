@@ -1,0 +1,4 @@
+/* Terms Page inherits from Privacy Page styles */
+@import './PrivacyPage.css';
+
+/* Any specific styles for Terms page can go here */

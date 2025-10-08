@@ -1,0 +1,376 @@
+/* Dashboard Section */
+.dashboard-section {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #dbeafe, #f0fdf4, #ffffff);
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.wallet-card {
+  background: linear-gradient(135deg, #059669, #2563eb);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.balance-label {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.balance-amount {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.balance-number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.balance-unit {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wallet-icon {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+}
+
+.wallet-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.wallet-stat {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-icon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.btn-redeem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: white;
+  color: #059669;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.btn-redeem:hover {
+  background: #f9fafb;
+}
+
+.quick-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quick-stat-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quick-stat-card h3 {
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.quick-stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.quick-stat-item:not(:last-child) {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.rank-eco {
+  color: #059669;
+  font-weight: 600;
+}
+
+.next-reward {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.daily-challenge {
+  background: linear-gradient(135deg, #fef3c7, #fed7aa);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #f59e0b;
+}
+
+.daily-challenge h4 {
+  color: #92400e;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.daily-challenge p {
+  color: #d97706;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 0.5rem;
+  background: #fbbf24;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #f59e0b;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: #d97706;
+}
+
+/* Impact Section */
+.impact-section {
+  padding: 3rem 0;
+  background: white;
+}
+
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.impact-stat {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.impact-stat:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.impact-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.impact-icon.trees {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
+.impact-icon.water {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+}
+
+.impact-icon.energy {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+}
+
+.impact-icon.rank {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  color: white;
+}
+
+.impact-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.impact-unit {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.impact-title {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.impact-desc {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.achievements {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.achievements h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.achievement-card {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid;
+}
+
+.achievement-card.beginner {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  border-color: #bbf7d0;
+}
+
+.achievement-card.saver {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  border-color: #93c5fd;
+}
+
+.achievement-card.champion {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border-color: #fcd34d;
+}
+
+.achievement-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.achievement-card h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.achievement-card.beginner h4 {
+  color: #059669;
+}
+
+.achievement-card.saver h4 {
+  color: #2563eb;
+}
+
+.achievement-card.champion h4 {
+  color: #d97706;
+}
+
+.achievement-card p {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Responsive Design */
+@media (min-width: 640px) {
+  .dashboard-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .impact-value {
+    font-size: 2rem;
+  }
+  
+  .impact-title {
+    font-size: 1rem;
+  }
+  
+  .impact-desc {
+    font-size: 0.875rem;
+  }
+  
+  .achievement-icon {
+    font-size: 4rem;
+  }
+  
+  .achievement-card h4 {
+    font-size: 1.125rem;
+  }
+  
+  .achievement-card p {
+    font-size: 0.875rem;
+  }
+}
